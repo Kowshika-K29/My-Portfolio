@@ -1,9 +1,12 @@
 // import React from "react";
 import ProfileImg from "../assets/images/ProfileImg.png";
-import { useNavigate } from "react-router";
-
+import Resume from "../assets/files/Resume.pdf";
 const HomePage = () => {
-   const navigate = useNavigate();
+const skills = ["HTML5", "CSS", "JavaScript", "React", "SQL", "Python", "Tailwind CSS"];
+
+// Repeat skills 3 times
+const repeatedSkills = [...skills, ...skills, ...skills];
+
   return (
     <>
       <section className="bg-[#000000] text-white  w-full">
@@ -18,36 +21,32 @@ const HomePage = () => {
               I'm <span className="text-orange-400 font-bold">Kowshika</span>
             </h1>
             </div>
-            <h2 className="text-5xl text-white font-bold mb-25">
+            <h2 className="text-4xl text-white font-bold mb-25">
               Front-End Developer
             </h2>
 
             <div className="button-Home mb-8 flex gap-8">
-              <a onClick={()=>navigate('/ProjectPage')} target="_blank" className="bg-orange-400 text-white py-[12px] px-[20px] font-medium text-base no-underline text-[15px] ">
-                My projects
+              <a href={Resume} download className="bg-orange-400 text-white py-[12px] px-[20px] font-medium text-base no-underline text-[15px] ">
+                My Resume
               </a>
-              <a
+              {/* <a
                 href="/resume.pdf"
                 target="_blank"
                 className="bg-transparent text-white py-[12px] px-[20px] font-medium text-base border border-white no-underline text-[15px]">
                 My Resume
-              </a>
+              </a> */}
             </div>
           </div>
           <div><img src={ProfileImg} alt="ProfileImage" className="w-100 h-100"></img></div>
         </div>
 
-        <div className="skills-bar">
-          <div className="skills-track">
-            <span>HTML5</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>SQL</span>
-            <span>Python</span>
-            <span>Tailwind CSS</span>
-          </div>
-        </div>
+       <div className="skills-bar">
+      <div className="skills-track">
+        {repeatedSkills.map((skill, index) => (
+          <span key={index}>{skill}</span>
+        ))}
+      </div>
+    </div>
       </section>
     </>
   );
