@@ -1,5 +1,5 @@
 // import React from "react";
-import ProjectImg from "../assets/images/projectImg.png";
+import ProjectImg from "../assets/images/ProjectImg.png";
 import ProjectImg1 from "../assets/images/ProjectImg1.png";
 
 const Data = [
