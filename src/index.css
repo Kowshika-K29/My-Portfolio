@@ -1,6 +1,9 @@
 @import "tailwindcss";
  /* common */
-
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244, 160, 4, 0.52) black; /* thumb color track color */
+}
 /* header component */
 .header-menu{
   list-style: none;
@@ -26,6 +29,10 @@
   height: 50px;
 }
 /* Home Page */
+.buttons:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
 /* Home-Page Skills Bar */
 .skills-bar {
   width: 100%;
@@ -34,7 +41,6 @@
   overflow: hidden;
   border-top: 1px solid #333;
 }
-
 .skills-track {
   display: flex;
   gap: 10%;
