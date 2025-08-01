@@ -1,5 +1,5 @@
 // import React from "react";
-import ProfileImg from "../assets/images/profileImg.png";
+import ProfileImg from "../assets/images/ProfileImg.png";
 import { useNavigate } from "react-router";
 
 const HomePage = () => {
