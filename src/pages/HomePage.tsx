@@ -24,17 +24,17 @@ const repeatedSkills = [...skills, ...skills, ...skills];
     </div>
     <h2 className="text-4xl text-white font-bold mb-15">Front-End Developer</h2>
 
-    <div className="flex justify-center md:justify-start gap-15 mb-8">
+    <div className=" flex justify-center md:justify-start gap-15 mb-8">
       <a
         href={Resume}
         download
-        className="bg-orange-400 text-white py-3 px-6 font-medium text-[15px]">
+        className="button-Home bg-orange-400 text-white py-3 px-5 font-medium text-[15px] rounded">
         My Resume
       </a>
       <a
         href="https://www.linkedin.com/in/kowshika--k"
         target="_blank"
-        className="border border-white text-white py-3 px-6 font-medium text-[15px]">
+        className="button-Home border border-white text-white py-3 px-6 font-medium text-[15px] rounded">
         LinkedIn
       </a>
     </div>
