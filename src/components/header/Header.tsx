@@ -1,9 +1,5 @@
 // import React from "react";
-// import { useNavigate } from "react-router";
-// import HamburgerIcon from "../../assets/icons/hamburger-icon.png";
 const Header = () =>{
-    // const navigate = useNavigate();
-    
     return(
     <>
     <header className="sticky top-0 z-1 2xl:px-60 flex justify-between items-center px-25 py-5 bg-[#1a1a1a] text-white w-full sm:w-full">
