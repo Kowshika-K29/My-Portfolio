@@ -41,7 +41,7 @@ const repeatedSkills = [...skills, ...skills, ...skills];
         href="https://www.linkedin.com/in/kowshika--k"
         target="_blank"
         className="button-Home border border-white text-white py-4 px-6 font-medium text-[15px] rounded">
-        LinkedIn
+        Let's Connect
       </a>
     </div>
   </div>
