@@ -36,13 +36,13 @@ const Data = [
 const ProjectPage = () => {
   return (
     <>
-      <section className="bg-[#000000] text-white px-25 pb-25 w-full">
-        <h2 className="h2-heading text-4xl font-bold mb-4 text-center">
+      <section className="2xl:px-60 bg-[#000000] text-white px-25 pb-25 w-full">
+        <h2 className="h2-heading text-2xl mb-4 md:text-4xl font-bold mb-4 text-center">
           Projects
         </h2>
         {/* project 1 */}
         {Data.map((project, index) => (
-          <div key={index} className="flex justify-between items-start mt-20">
+          <div key={index} className="flex justify-between items-start mt-20 sm:max-lg:flex-col gap-10">
             <div className="flex flex-col gap-5 ">
               <h3 className="text-2xl font-semibold projectName" >
                 {project.title}

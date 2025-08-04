@@ -5,8 +5,9 @@ import WebsiteImg from "../assets/images/websiteImg.png";
 const AboutPage = () => {
   return (
     <>
-      <section className="bg-black text-white px-25 pt-25 pb-25 w-full">
-        <div className="flex justify-between items-start">
+      <section className="2xl:px-60 bg-black text-white px-25 pt-25 pb-25 w-full">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left gap-10">
+
           <div className="flex flex-col gap-20">
             <div className="skill-set">
               <img src={WebImg} alt="" className="w-14 h-9" />
@@ -22,8 +23,8 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="w-1/2">
-            <h2 className=" h2-heading text-4xl font-bold mb-4">About me</h2>
+          <div className="md:w-1/2">
+            <h2 className=" h2-heading text-2xl mb-4 md:text-4xl font-bold mb-4">About me</h2>
             <p className="project-status text-justify">
               Proficient in core web technologies including Python, HTML, CSS,
               JavaScript, and SQL. Hands-on experience in design and content

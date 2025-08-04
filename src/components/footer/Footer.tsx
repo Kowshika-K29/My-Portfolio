@@ -6,9 +6,9 @@ import linkedinIcon from "../../assets/icons/social-media/linkedin-icon.png";
 const Footer = () =>{
     return(
     <>
-    <footer  className="p-[15px] bg-[#1a1a1a] text-center text-white w-full">
+    <footer  className="2xl:px-60 p-[15px] bg-[#1a1a1a] text-center text-white w-full">
     <div className="flex flex-col items-center gap-3">
-        <h1 className="font-bold text-2xl">Kowshika Karuppusamy</h1>
+        <h1 className="font-bold text-2xl ">Kowshika Karuppusamy</h1>
         <p className="text-lg">Designed with passion towards developing!</p>
         <div className="flex justify-center gap-3">
             <div className="footer-icons gap-3">

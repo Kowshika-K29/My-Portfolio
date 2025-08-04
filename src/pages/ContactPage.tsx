@@ -46,14 +46,14 @@ const ContactPage = () => {
 
   return (
     <>
-      <section className="bg-[#000000] text-white px-25 pb-25 w-full">
-        <div className="flex justify-between items-center">
-          <div className="w-1/2">
-          <div className="flex items-center -ml-24">
-            <div className="w-40 h-[2px] bg-orange-400 mr-4"></div>
-            <h2 className="h2-heading text-4xl font-bold  mb-8">Contacts</h2></div>
-            <h1 className="text-5xl font-bold mb-5">Have a Project?</h1>
-            <h1 className="text-5xl font-bold mb-8">Let's Talk!</h1>
+      <section className="2xl:px-60 bg-[#000000] text-white px-25 pb-25 w-full">
+        <div className="flex justify-between items-center sm:max-lg:flex-col gap-10">
+          <div className="w-1/2 ">
+          <div className="flex items-center md:-ml-24 2xl:-ml-60">
+            <div className="bg-black md:w-40 h-[2px] bg-orange-400 mr-4 2xl:w-70"></div>
+            <h2 className="h2-heading text-2xl mb-8 md:text-4xl font-bold  mb-8">Contacts</h2></div>
+            <h1 className=" text-2xl mb-5 md:text-5xl font-bold mb-5 sm:">Have a Project?</h1>
+            <h1 className="text-2xl mb-5 md:text-5xl font-bold mb-8">Let's Talk!</h1>
           </div>
           <div className="w-1/2">
             <form onSubmit={formik.handleSubmit}>
