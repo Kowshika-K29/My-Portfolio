@@ -46,7 +46,7 @@ const ContactPage = () => {
 
   return (
     <>
-      <section className="2xl:px-60 bg-[#000000] text-white px-25 pb-25 w-full">
+      <section className="2xl:px-60 bg-[#000000] text-white px-25 pb-25 w-full" id="ContactPage">
         <div className="flex justify-between items-center sm:max-lg:flex-col gap-10">
           <div className="w-1/2 ">
           <div className="flex items-center md:-ml-24 2xl:-ml-60">

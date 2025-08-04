@@ -5,7 +5,7 @@ import WebsiteImg from "../assets/images/websiteImg.png";
 const AboutPage = () => {
   return (
     <>
-      <section className="2xl:px-60 bg-black text-white px-25 pt-25 pb-25 w-full">
+      <section className="2xl:px-60 bg-black text-white px-25 pt-25 pb-25 w-full" id="AboutPage">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left gap-10">
 
           <div className="flex flex-col gap-20">
@@ -15,14 +15,14 @@ const AboutPage = () => {
             </div>
             <div className="skill-set">
               <img src={SoftwareImg} alt="" className="w-15 h-9" />
-              <span className="skill-name">App Development</span>
+              <span className="skill-name">Quality Assurance</span>
             </div>
             <div className="skill-set">
               <img src={WebsiteImg} alt="" className="w-15 h-9" />
               <span className="skill-name">Website Hosting</span>
             </div>
           </div>
-
+              <div className="w-0.5 h-10 py-35 bg-gray-400"></div>
           <div className="md:w-1/2">
             <h2 className=" h2-heading text-2xl mb-4 md:text-4xl font-bold mb-4">About me</h2>
             <p className="project-status text-justify">
