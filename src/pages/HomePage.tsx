@@ -28,13 +28,13 @@ const repeatedSkills = [...skills, ...skills, ...skills];
       <a
         href={Resume}
         download
-        className="button-Home bg-orange-400 text-white md:py-3 px-4 font-medium text-base sm:text-sm md:text-sm lg:text-base rounded w-28">
+        className="button-Home bg-orange-400 text-white py-4 px-6 font-medium text-[15px] rounded">
         My Resume
       </a>
       <a
         href="https://www.linkedin.com/in/kowshika--k"
         target="_blank"
-        className="button-Home border border-white text-white md:py-3 px-4 font-medium text-base sm:text-sm md:text-sm lg:text-base rounded w-22">
+        className="button-Home border border-white text-white py-3 px-6 font-medium text-[15px] rounded">
         LinkedIn
       </a>
     </div>
