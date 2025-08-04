@@ -13,16 +13,16 @@ const repeatedSkills = [...skills, ...skills, ...skills];
         <div className="2xl:px-60 flex flex-col-reverse md:flex-row items-center justify-between px-6 py-10 gap-10 md:gap-20 px-25 pd-25">
   {/* Text section */}
   <div className="text-center md:text-left">
-    <h2 className="text-4xl text-white sm:max-lg:text-xl lg:max-xl:text-2xl font-bold">
+    <h2 className="text-4xl text-white ">
       Hello <span className="text-orange-400 font-extrabold">.</span>
     </h2>
     <div className="flex items-center justify-center md:justify-start -ml-0 md:-ml-24 2xl:-ml-60">
       <div className="bg-black md:w-40 h-[2px] bg-orange-400 mr-4 mt-6 2xl:w-70 "></div>
-      <h1 className="text-4xl my-[10px] sm:max-lg:text-2xl lg:max-xl:text-3xl">
+      <h1 className="text-4xl my-[10px] ">
         I'm <span className="text-orange-400 font-bold">Kowshika</span>
       </h1>
     </div>
-    <h2 className="text-4xl text-white font-bold mb-15 sm:max-lg:text-xl lg:max-xl:text-2xl">Front-End Developer</h2>
+    <h2 className="text-4xl text-white font-bold mb-15 ">Front-End Developer</h2>
 
     <div className=" flex justify-center md:justify-start gap-15 mb-8">
       <a
