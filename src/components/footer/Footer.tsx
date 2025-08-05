@@ -13,7 +13,7 @@ const Footer = () =>{
         <div className="flex justify-center gap-3">
             <div className="footer-icons gap-3">
                <a href="https://github.com/Kowshika-K29" target="_blank"><img src={githubIcon} alt="github"/></a> 
-                <a href="mailto:kowshika29.k@gamil.com" target="_blank"><img src={mailIcon} alt="mail"/></a> 
+                <a href="mailto:contact@alferix.com" target="_blank"><img src={mailIcon} alt="mail"/></a> 
                  <a href="https://www.linkedin.com/in/kowshika--k" target="_blank"><img src={linkedinIcon} alt="linkedin"/></a>
             </div>
         </div>

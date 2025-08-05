@@ -31,7 +31,7 @@ const validate = (values:formDetails) =>{
 const ContactPage = () => {
 
   const handleSubmit = (values:formDetails) => {
-  const mailtoLink =  `https://mail.google.com/mail/?view=cm&fs=1&to=kowshika29.k@gmail.com&su=${encodeURIComponent(
+  const mailtoLink =  `https://mail.google.com/mail/?view=cm&fs=1&to=contact@alferix.com&su=${encodeURIComponent(
       values.message
     )}&body=${encodeURIComponent(
       `Hi, my name is ${values.name}.\n\n${values.message}\n\nContact me at: ${values.email}`

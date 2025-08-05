@@ -4,19 +4,6 @@ import ProjectImg1 from "../assets/images/ProjectImg1.png";
 
 const Data = [
   {
-    title: "Gaming Website",
-    skills: ["HTML", "CSS"],
-    description:
-      "Created a gaming webpage with HTML, CSS, and JavaScript featuring interactive user experience, stunning visual design, and dynamic content integration",
-    image:  ProjectImg ,
-    github: (
-      <a
-        href="https://github.com/Kowshika29-K/Gaming-Website"
-        target="_blank"
-        className="bg-orange-400 text-white py-[12px] px-[20px] font-medium text-base no-underline text-[15px] rounded"
-      >View GitHub</a>)
-  },
-  {
     title: "PVT",
     skills: ["Quality Assurance","React"],
     description:
@@ -31,6 +18,19 @@ const Data = [
         View Github
       </a>
     )
+  },
+  {
+    title: "Gaming Website",
+    skills: ["HTML", "CSS"],
+    description:
+      "Created a gaming webpage with HTML, CSS, and JavaScript featuring interactive user experience, stunning visual design, and dynamic content integration",
+    image:  ProjectImg ,
+    github: (
+      <a
+        href="https://github.com/Kowshika29-K/Gaming-Website"
+        target="_blank"
+        className="bg-orange-400 text-white py-[12px] px-[20px] font-medium text-base no-underline text-[15px] rounded"
+      >View GitHub</a>)
   },
 ];
 const ProjectPage = () => {
